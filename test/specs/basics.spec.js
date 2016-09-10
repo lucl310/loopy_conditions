@@ -40,7 +40,7 @@ describe( 'Main', function() {
     });
   });
   describe('sumOfArray', function() {
-    it('should have a function called `stringOfNumbers`', function(){
+    it('should have a function called `sumOfArray`', function(){
       expect(sumOfArray).to.exist;
     });
     it('should return the sum of all numbers in an array', function(){

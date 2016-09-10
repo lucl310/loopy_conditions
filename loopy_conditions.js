@@ -7,6 +7,14 @@
  * @return { Number }
  */
 
+function greaterNumber(a, b) {
+	 if (a > b) {
+	 	return a
+	 }
+	 else {
+	 	return b
+	 }
+}
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,7 +25,10 @@
  * @param  { Number } n
  * @return { String }
  */
-
+function stringOfNumbers(n) {
+n = 10
+if (n > 10) {return 1,2,3,4,5,6,7,8,9,10,11}
+}
 
 /**
  * Create a function called 'sumOfArray'.
