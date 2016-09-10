@@ -26,11 +26,14 @@ function greaterNumber(a, b) {
  * @return { String }
  */
 function stringOfNumbers(n) {
-n = 10
-if (n > 10) {return 1,2,3,4,5,6,7,8,9,10,11}
+	var string ="";
+	for (var i = 0; i < n; i++) {
+			string += i
+	}
+	return string
 }
 
-/**
+/**{return 1,2,3,4,5,6,7,8,9,10,11
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
  * Your task is to take the array and return the sum of all the numbers in the array.
@@ -38,7 +41,9 @@ if (n > 10) {return 1,2,3,4,5,6,7,8,9,10,11}
  * @param  { array } arr
  * @return { Number }
  */
-
+function sumOfArray(arr {}) {
+	
+}
 
 /**
  * Create a function called 'getEvens'.
